@@ -6,6 +6,8 @@ from tortoise import Tortoise
 from src.database.register import register_tortoise
 from src.database.config import TORTOISE_ORM
 
+Tortoise.init_models(["src.database.models"], "models")
+
 app = FastAPI()
 
 app.add_middleware(

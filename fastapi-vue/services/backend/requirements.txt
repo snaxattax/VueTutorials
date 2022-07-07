@@ -5,3 +5,8 @@ asyncpg==0.23.0
 fastapi==0.68.0
 tortoise-orm==0.17.6
 uvicorn==0.14.0
+
+
+asyncpg==0.23.0
+bcrypt==3.2.0
+passlib==1.7.4
